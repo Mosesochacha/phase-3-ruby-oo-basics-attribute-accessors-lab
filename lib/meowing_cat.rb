@@ -1,12 +1,9 @@
-## code your solution here. 
-
-
+# File: ./lib/meowing_cat.rb
 class Cat
   attr_accessor :name
-     def meow
-      
-     end
+  def meow
+    puts "meow!"
+  end
 end
-
-meow = Cat.new()
-meow.name = "meow!"
+cat = Cat.new
+cat.meow
